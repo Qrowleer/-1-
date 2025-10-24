@@ -1,0 +1,91 @@
+
+
+.obsch {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.canty {
+    width: 500px;
+    height: 500px;
+
+
+}
+.infra {
+    margin: 50px;
+    color: #212529;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 151, 151);
+    margin-top: 20px;
+    display: block;
+}
+
+footer {
+    background-color: #2F4F4F;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 151, 151);
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 255, 255);
+    padding: 10px;
+}
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}

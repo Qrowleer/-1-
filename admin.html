@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панель администратора</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admin/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <div class="nav-links">
+                        <a href="index.html">Главная</a>
+                        <a href="index.html">Товары</a>
+                        <a href="admin.html">Админка</a>
+                    </div>
+                    <div class="nav-links">
+                        <a href="#" id="logoutBtn">Выход</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="admin-content">
+            <h1>Панель администратора</h1>
+
+            <div class="admin-tabs">
+                <button class="tab-btn active" data-tab="users">Пользователи</button>
+                <button class="tab-btn" data-tab="products">Товары</button>
+            </div>
+
+            <div class="tab-content active" id="users-tab">
+                <div class="section-header">
+                    <h2>Управление пользователями</h2>
+                    <button class="btn-add" id="addUserBtn">Добавить пользователя</button>
+                </div>
+                <table id="usersTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Логин</th>
+                            <th>Имя</th>
+                            <th>Роль</th>
+                            <th>Действия</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usersTableBody"></tbody>
+                </table>
+            </div>
+
+            <div class="tab-content" id="products-tab">
+                <div class="section-header">
+                    <h2>Управление товарами</h2>
+                    <button class="btn-add" id="addProductBtn">Добавить товар</button>
+                </div>
+                <table id="productsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Название</th>
+                            <th>Описание</th>
+                            <th>Цена</th>
+                            <th>Действия</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productsTableBody"></tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-info">
+                    Практическая работа 3 // Непрокин Семен // Магазин Автозвука
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle">Добавить</h2>
+            <form id="modalForm"></form>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
