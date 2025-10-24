@@ -1,4 +1,7 @@
-* 8bfa670 (HEAD -> main, origin/main) Практическая работа 3 - Полная версия
-* 0e638b4 (origin/dev-catalog, dev-catalog) Add product catalog functionality
-* 495b95b (origin/dev-auth, dev-auth) Add authentication and registration
-* 6f7c7a8 (origin/dev-admin, dev-admin) Add admin panel functionality
+* 37dd36a (HEAD -> main) практическая 3
+* 0c0a61d (origin/main) чистка
+* 923bfe6 обновил граф
+* 0c59870 практическая 3
+* 958d4d6 (origin/dev-catalog, dev-catalog) каталог товаров
+* 16e2ce5 (origin/dev-auth, dev-auth) авторизация
+* 537fb85 (origin/dev-admin, dev-admin) админка
